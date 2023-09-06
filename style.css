@@ -1,0 +1,60 @@
+.imgg1{height: 100px;
+width: 100px;}
+
+.navbar-brand {
+    margin-left: 50px;
+    font-size: 30px;
+    background-image: url(imgg2.png);
+    background-repeat: no-repeat ;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    border: 5px solid black;
+    animation: colOr;
+    animation-direction: reverse;
+    animation-timing-function: ease-in;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes colOr     
+{
+    0%{border-color: blue;}
+    10%{border-color: rgb(255, 196, 0);}    
+    20%{border-color: rgb(122, 145, 93);}
+    30%{border-color: rgb(125, 24, 101);}
+    40%{border-color: rgb(143, 16, 39);}
+    50%{border-color: rgb(26, 25, 25);}
+    60%{border-color: rgb(241, 231, 231);}
+    70%{border-color: rgb(82, 134, 157);}
+    80%{border-color: rgb(155, 199, 25);}
+    90%{border-color: rgb(224, 149, 44);}
+    100%{border-color: rgb(31, 86, 131);}   
+}
+.navbar-nav {
+    position: relative;
+    margin-left: 350px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.carousel-inner{
+    height:450px;
+    width: 100%;
+    object-fit: contain;
+}
+img{
+    object-fit: cover;
+}
+
+.im1{
+    /* padding-bottom: 5px; */
+    height: 40px;
+    width: 40px;
+}
+.headd
+{
+    position: relative;
+    left: 250px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
